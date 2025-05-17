@@ -1,25 +1,3 @@
-// .slogan {
-//     width: 100%;
-//     height: 100vh;
-
-//     .clipe {
-//         width: 100%;
-//         height: 100%;
-//         object-fit: cover;
-//         object-position: center;
-//         overflow-x: hidden;
-//     }
-
-//     .box {
-//         width: 100%;
-//         height: 100%;
-//         position: absolute;
-//         top: 0;
-//         left: 0;
-//         background-color: black;
-//         opacity: 0.6;
-//     }
-// }
 
 .hero {
     width: 100%;
@@ -116,4 +94,8 @@
             }
         }
     } 
+}
+
+section {
+    height: 100vh;
 }
