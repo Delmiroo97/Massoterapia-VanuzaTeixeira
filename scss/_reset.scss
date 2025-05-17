@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Poppins", sans-serif;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+html {
+    font-size: 62.5%;
+}

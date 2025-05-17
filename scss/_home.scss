@@ -1,0 +1,115 @@
+// .slogan {
+//     width: 100%;
+//     height: 100vh;
+
+//     .clipe {
+//         width: 100%;
+//         height: 100%;
+//         object-fit: cover;
+//         object-position: center;
+//         overflow-x: hidden;
+//     }
+
+//     .box {
+//         width: 100%;
+//         height: 100%;
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         background-color: black;
+//         opacity: 0.6;
+//     }
+// }
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    .background-video {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: -1;
+    }
+
+    .overlay {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        // z-index: 1;
+        background-color: black;
+        opacity: 0.6;
+    }
+    .container {
+        z-index: 2025;
+        nav {
+            width: 100%;
+            height: 7rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            // border: 0.1rem solid #fff;
+            border-radius: 10rem;
+            margin-top: 3rem;
+            a {
+                font-size: 1.8rem;
+                color: #fff;
+                transition: .3s ease;
+                // text-transform: uppercase;
+                // font-weight: bold;
+                &:hover {
+                    opacity: 0.5;
+                }
+            }
+        }
+    }
+    .box {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        z-index: 2025;
+        .text {
+            max-width: 108rem;
+            text-align: center;
+            margin-bottom: 10rem;
+            h1 {
+                font-size: 8rem;
+                color: #fff;
+
+                // transition: .3s ease-in-out;
+            }
+            p {
+                font-size: 1.8rem;
+                color: #fff;
+                font-weight: 400;
+                padding-top: 4rem;
+            }
+        }
+        .btns {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 4rem;
+            gap: 2rem;
+            .btn {
+                font-size: 1.4rem;
+                color: #fff;
+                border: 0.1rem solid #fff;
+                padding: 1rem 6rem;
+                border-radius: 10rem;
+                transition: .3s ease;
+                &:hover {
+                    background-color: #fff;
+                    color: lightgrey;
+                }
+            }
+        }
+    } 
+}
