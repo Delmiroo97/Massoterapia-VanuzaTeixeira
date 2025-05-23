@@ -12,6 +12,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Massoterapia | Vanuza Teixeira</title>
     <link rel="stylesheet" href="css/main.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/swiper.css">
 </head>
 <body>
     <section class="hero">
@@ -26,6 +29,7 @@
             <div class="container">
                 <nav>
                     <a href="">Serviços</a>
+                    <!-- <a href="">Carreira</a> -->
                     <a href="">Testemunhos</a>
                     <a href="">Localização</a>
                     <a href="">Contato</a>
@@ -45,7 +49,7 @@
     <section class="servics">
         <div class="container">
             <h2>Serviços</h2>
-            <div class="all">
+            <div class="all" data-aos="fade-right">
                 <div class="imagem1">
                     <h4>Ventosa</h4>
                     <div class="img-orvelay">
@@ -65,7 +69,7 @@
                 </div>
             </div>
 
-            <div class="all-2">
+            <div class="all-2" data-aos="fade-left">
                 <div class="imagem1">
                     <h4>Desportiva</h4>
                     <div class="img-orvelay">
@@ -85,7 +89,7 @@
                 </div>
             </div>
 
-            <div class="all-3">
+            <div class="all-3" data-aos="fade-right">
                 <div class="imagem1">
                     <h4>Reflexoterapia</h4>
                     <div class="img-orvelay">
@@ -109,8 +113,8 @@
 
     <section class="call-menssage">
         <div class="container">
-            <img src="img/sala.jpg" alt="">
-            <div class="right-menssage">
+            <img src="img/sala.jpg" alt="" data-aos="zoom-in">
+            <div class="right-menssage" data-aos="fade-down">
                 <div class="call-text">
                     <h2>Serenidade alcançada através de massoterapia especializada</h2>
                 </div>
@@ -129,5 +133,136 @@
         </div>
     </section>
 
+    <section class="testimony">
+        <div class="container">
+
+        <div class="text-testimony">
+            <h2>Testemunhos</h2>
+            <!-- <h4>Feedback dos clientes</h4> -->
+            <p><i>Os testemunhos dos clientes falam por si. São relatos autênticos de quem experimentou, aprovou e recomenda os meus serviços. A satisfação deles é a minha maior prova de credibilidade e competência.</i></p>
+        </div>
+        <div class="swiper">
+        <div class="swiper-wrapper">
+
+
+            <div class="swiper-slide">
+
+                <div class="avatar-details">
+                    <div class="avatar-box">
+                        <div class="avatar-img1">
+                        </div>
+
+                        <div class="avatar-text">
+                            <h4>Maria Helena</h4>
+                            <p>35 anos</p>
+                        </div>
+                    </div>
+
+                    <p>Cliente desde 2022.</p>
+                </div>
+
+                <div class="details-testimony">
+
+                    <blockquote>
+                        "Saí da sessão completamente renovada! A massagem aliviou minhas tensões e me proporcionou um bem-estar que há muito tempo não sentia. Recomendo de olhos fechados!"
+                    </blockquote>
+
+                    <div class="star">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            <div class="swiper-slide">
+
+                <div class="avatar-details">
+                    <div class="avatar-box">
+                        <div class="avatar-img2">
+                        </div>
+
+                        <div class="avatar-text">
+                            <h4>Cecília Soares</h4>
+                            <p>22 anos</p>
+                        </div>
+                    </div>
+                    <p>Cliente desde 2024.</p>
+                </div>
+
+                <div class="details-testimony">
+                    <blockquote>
+                        "Como corredora, vivia com as pernas tensionadas e desconforto nos ombros. A sua sessão de massoterapia fez toda a diferença na minha recuperação muscular e na prevenção de lesões. Nunca imaginei que um toque profissional pudesse trazer tanto bem-estar!"
+                    </blockquote>
+
+                    <div class="star">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                </div>
+            </div>
+
+             <div class="swiper-slide">
+
+                <div class="avatar-details">
+                    <div class="avatar-box">
+                        <div class="avatar-img3">
+                        </div>
+
+                        <div class="avatar-text">
+                            <h4>Paulo César</h4>
+                            <p>55 anos</p>
+                        </div>
+                    </div>
+
+                    <p>Cliente desde 2021.</p>
+                </div>
+
+                <div class="details-testimony">
+                    <blockquote>
+                        "Passei muitos anos dirigindo longas distâncias, o que acabou causando dores crônicas na lombar e no pescoço. E a sessão que tivemos foi um divisor de águas na minha vida. Hoje, me sinto muito mais disposto, com menos dores e mais mobilidade. É um investimento que vale cada minuto."
+                    </blockquote>
+
+                    <div class="star">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+     </div>
+    </section>
+
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+   </script>
+
+    <script>
+     AOS.init({
+            duration: 2000,
+            disable: 'mobile'
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js">
+    </script>
+
+    <script
+    src="javascript/scripts.js">
+    </script>
 </body>
 </html>

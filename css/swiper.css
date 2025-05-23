@@ -1,0 +1,153 @@
+.testimony {
+    margin-top: 10rem;
+    background-color: #f4f2ef;
+}
+
+.text-testimony h2 {
+    color: #4b4b4b;
+    font-weight: 500;
+    padding-top: 4rem;
+}
+
+.text-testimony p {
+  max-width: 41rem;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 10rem;
+}
+
+.swiper {
+  width: 85rem;
+  height: 40rem;
+  background-color: white;
+  border-radius: 2rem;
+  padding: 0 4rem;
+}
+
+.swiper-slide {
+    /* border: 0.1rem solid red; */
+    width: 100%;
+    display: flex;
+}
+
+
+.avatar-details {
+    width: 50%;
+    /* border: 0.1rem solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar-box {
+    width: 32rem;
+    height: 10rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    gap: 1rem;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.avatar-box .avatar-text h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.avatar-box .avatar-text p {
+    font-size: 1.2rem;
+    color: #4b4b4b;
+}
+
+.avatar-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.avatar-details > p {
+    margin-top: 4rem;
+    font-size: 1.2rem;
+    color: #4b4b4b;
+}
+
+.avatar-details .avatar-img1 {
+    width: 7rem;
+    height: 7rem;
+    background-color: red;
+    border-radius: 50%;
+    background: url(../img/avatar1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.avatar-details .avatar-img2 {
+    width: 7rem;
+    height: 7rem;
+    background-color: red;
+    border-radius: 50%;
+    background: url(../img/avatar2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.avatar-details .avatar-img3 {
+    width: 7rem;
+    height: 7rem;
+    background-color: red;
+    border-radius: 50%;
+    background: url(../img/avatar3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.details-testimony {
+    width: 50%;
+    /* border: 0.1rem solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+blockquote {
+    /* border: 0.1rem solid red; */
+    background-color: white;
+    color: #4b4b4b;
+    font-size: 1.8rem;
+    max-width: 36rem;
+    text-align: center;
+    padding: 1.2rem;
+    border-radius: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.star {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+.star i {
+    /* padding-top: 4rem; */
+    color: #ffbe0b;
+    font-size: 2rem;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 50%;
+}
+
+.swiper-button-prev::after {
+    font-size: 1.5rem;
+}
+
+.swiper-button-next::after {
+    font-size: 1.5rem;
+}
+
+
