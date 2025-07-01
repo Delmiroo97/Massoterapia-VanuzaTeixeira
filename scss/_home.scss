@@ -588,6 +588,9 @@
                 align-items: center;
                 justify-content: center;
                 gap: 2.5rem;
+                &:hover span {
+                    transform: translateX(10px);
+                }
                 h4 {
                 font-size: 1.8rem;
                 color: #4b4b4b;
@@ -601,6 +604,7 @@
                 top: 0.8rem;
                 font-size: 3.5rem;
                 color: #4b4b4b;
+                transition: .3s ease-in-out;
             }
             }
         }
