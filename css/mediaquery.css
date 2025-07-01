@@ -1,0 +1,122 @@
+@media(max-width: 560px) {
+     .hero {
+      
+    }
+
+    .hero .box .text h1 {
+        font-size: 3rem;
+    }
+
+    .hero .box .text p {
+        font-size: 1.3rem;
+    }
+
+    .servics .container h2 {
+        margin-top: 2rem;
+        font-size: 3rem;
+    }
+
+    .servics .container .all {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .servics .container .all .imagem1,
+    .servics .container .all .imagem2,
+    .servics .container .all .imagem3 {
+        width: 100%;
+    }
+
+    .servics .container .all .imagem1 h4,
+    .servics .container .all .imagem2 h4,
+    .servics .container .all .imagem3 h4 {
+        display: block;
+        color: #ffffff;
+    }
+
+    .servics .container .all-2 {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .servics .container .all-2 .imagem1,
+    .servics .container .all-2 .imagem2,
+    .servics .container .all-2 .imagem3 {
+        width: 100%;
+    }
+
+    .servics .container .all-2 .imagem1 h4,
+    .servics .container .all-2 .imagem2 h4,
+    .servics .container .all-2 .imagem3 h4 {
+        display: block;
+        color: #ffffff;
+    }
+
+    .servics .container .all-3 {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .servics .container .all-3 .imagem1,
+    .servics .container .all-3 .imagem2,
+    .servics .container .all-3 .imagem3 {
+        width: 100%;
+    }
+
+    .servics .container .all-3 .imagem1 h4,
+    .servics .container .all-3 .imagem2 h4,
+    .servics .container .all-3 .imagem3 h4 {
+        display: block;
+        color: #ffffff;
+    }
+
+    .call-menssage .container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .call-menssage .container .right-menssage .call-text h2 {
+        margin-left: 0;
+        font-size: 2.4rem;
+    }
+
+    .call-menssage .container .right-menssage .call-btn {
+        padding: 1rem 2rem;
+        font-size: 1.6rem;
+        margin: 3rem 0 0 6rem;
+        border-radius: 0;
+    }
+
+    .call-menssage .container .right-menssage .call-recursos ul {
+        width: 100%;
+        margin: 0 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin: 4rem 0;
+    }
+
+    .text-testimony h2 {
+        font-weight: 500;
+        padding-top: 2rem;
+        font-size: 3rem;    
+    }
+
+    .text-testimony p {
+        margin-bottom: 4rem;  
+    }
+    
+    .swiper {
+        width: 100%;
+        height: 50rem;
+    }
+    
+    .swiper-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+}
