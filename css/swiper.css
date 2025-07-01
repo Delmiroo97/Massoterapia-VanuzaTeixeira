@@ -79,7 +79,7 @@
     height: 7rem;
     background-color: red;
     border-radius: 50%;
-    background: url(../img/avatar1.jpg);
+    background: url(../img/avatar-usuario.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -89,7 +89,7 @@
     height: 7rem;
     background-color: red;
     border-radius: 50%;
-    background: url(../img/avatar2.jpg);
+    background: url(../img/avatar-usuario.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -99,7 +99,7 @@
     height: 7rem;
     background-color: red;
     border-radius: 50%;
-    background: url(../img/avatar3.jpg);
+    background: url(../img/avatar-usuario.jpg);
     background-size: cover;
     background-position: center;
 }
