@@ -138,7 +138,7 @@
 
     .swiper {
         /* width: 100%; */
-        overflow-x: hidden;
+        overflow: hidden;
     }
 
     .swiper-slide {
