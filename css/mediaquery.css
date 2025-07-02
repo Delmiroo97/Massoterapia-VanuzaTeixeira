@@ -163,6 +163,7 @@
     .location .container .top-container .container-left h2 {
         margin-top: 2rem;
         font-size: 2.8rem;
+        text-align:  center;
     }
 
     .location .container .top-container .container-left .text-location h4 {
