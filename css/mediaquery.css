@@ -136,6 +136,11 @@
         margin-top: 5rem;
     }
 
+    .swiper {
+        /* width: 100%; */
+        overflow-x: hidden;
+    }
+
     .swiper-slide {
         display: flex;
         flex-direction: column;
