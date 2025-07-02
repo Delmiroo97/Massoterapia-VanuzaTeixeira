@@ -163,7 +163,7 @@
     .location .container .top-container .container-left h2 {
         margin-top: 2rem;
         font-size: 2.8rem;
-        text-align:  center;
+
     }
 
     .location .container .top-container .container-left .text-location h4 {
@@ -177,6 +177,7 @@
     .location .container .bottom-container h2 { 
         padding-top: 5rem;
         font-size: 2.8rem;
+        text-align:  center;
     }
 
     .map {
