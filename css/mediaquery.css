@@ -97,6 +97,10 @@
         margin: 4rem 0;
     }
 
+    .testimony {
+        overflow: hidden;
+    }
+
     .text-testimony h2 {
         font-weight: 500;
         padding-top: 2rem;
