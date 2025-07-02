@@ -78,6 +78,7 @@
     .call-menssage .container .right-menssage .call-text h2 {
         margin-left: 0;
         font-size: 2.4rem;
+        text-align: center;
     }
 
     .call-menssage .container .right-menssage .call-btn {
