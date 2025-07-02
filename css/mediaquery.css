@@ -173,6 +173,10 @@
         overflow: hidden;
     }
 
+    iframe {
+        width: 100%;
+    }
+
     footer {
         margin-bottom: 0;
     }
