@@ -169,6 +169,10 @@
         font-size: 2.8rem;
     }
 
+    .map {
+        overflow: hidden;
+    }
+
     footer {
         margin-bottom: 0;
     }
