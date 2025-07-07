@@ -72,9 +72,9 @@
             .hamburger {
                 .hamburger-inner {
                     // display: none;
-                    background-color: #ffffff;
+                    background-color: pink;
                     &::before, &::after {
-                        background-color: #ffffff;
+                        background-color:  pink;
                     }
                 }
                 .is-active {
