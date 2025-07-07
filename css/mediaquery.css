@@ -1,10 +1,5 @@
 @media(max-width: 560px) {
     
-     .opened-menu {
-        /* transform: translateY(100%);
-        opacity: 0; */
-     }
-
     .hero .container nav {
         position: fixed;
         left: 0;
